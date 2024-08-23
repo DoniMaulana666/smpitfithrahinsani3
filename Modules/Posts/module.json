@@ -1,0 +1,23 @@
+{
+    "name": "Posts",
+    "label": "Posts",
+    "alias": "posts",
+    "description": "manage all posts",
+    "keywords": ["posts"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Posts\\Providers\\PostsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "menus": [
+        {
+            "icon": "fas fa-circle",
+            "name": "Posts",
+            "route": "posts.index",
+            "permission": "read posts"
+        }
+    ],
+    "permissions": ["posts"]
+}

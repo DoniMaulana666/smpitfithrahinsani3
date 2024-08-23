@@ -1,0 +1,9 @@
+{
+    "Categories": false,
+    "Posts": false,
+    "Grades": true,
+    "Subjects": true,
+    "Teachers": true,
+    "Students": true,
+    "Attendances": true
+}

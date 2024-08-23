@@ -1,0 +1,23 @@
+{
+    "name": "Grades",
+    "label": "Grades",
+    "alias": "grades",
+    "description": "manage all grades",
+    "keywords": ["grades"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Grades\\Providers\\GradesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "menus": [
+        {
+            "icon": "fas fa-circle",
+            "name": "Grades",
+            "route": "grades.index",
+            "permission": "read grades"
+        }
+    ],
+    "permissions": ["grades"]
+}

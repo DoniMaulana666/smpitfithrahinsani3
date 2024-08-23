@@ -1,0 +1,23 @@
+{
+    "name": "Attendances",
+    "label": "Attendances",
+    "alias": "attendances",
+    "description": "manage all attendances",
+    "keywords": ["attendances"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Attendances\\Providers\\AttendancesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "menus": [
+        {
+            "icon": "fas fa-circle",
+            "name": "Attendances",
+            "route": "attendances.index",
+            "permission": "read attendances"
+        }
+    ],
+    "permissions": ["attendances"]
+}

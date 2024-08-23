@@ -1,0 +1,23 @@
+{
+    "name": "Teachers",
+    "label": "Teachers",
+    "alias": "teachers",
+    "description": "manage all teachers",
+    "keywords": ["teachers"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Teachers\\Providers\\TeachersServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "menus": [
+        {
+            "icon": "fas fa-circle",
+            "name": "Teachers",
+            "route": "teachers.index",
+            "permission": "read teachers"
+        }
+    ],
+    "permissions": ["teachers"]
+}
